@@ -30,8 +30,8 @@ JWT_SECRET;
 
 ### Build docker images and upload
 `docker-compose -f docker-compose-build.yaml build --parallel`  
-`docker images`  
-`docker-compose up` 
+`docker images`   
+`docker-compose up`  
 `docker-compose -f docker-compose-build.yaml push`
 
 ### Create a Kubernetes Cluster on Amazon EKS with eksctl
